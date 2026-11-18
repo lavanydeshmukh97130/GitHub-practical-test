@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+
+nav {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Home */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #222;
+    color: white;
+}
+
+#home span {
+    color: orange;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #222;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card:hover {
+    background-color: #ffe0b2;
+}
+
+/* Contact */
+#contact {
+    background-color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
